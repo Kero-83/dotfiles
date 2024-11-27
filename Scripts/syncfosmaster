@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+sync_branch=$1
+git checkout $sync_branch
+git pull
+git checkout -
+ms1=(
+  "kern/cmd/command_prompt.c"
+  "lib/syscall.c"
+  "kern/trap/syscall.c"
+  "inc/syscall.h"
+  "lib/dynamic_allocator.c"
+  "kern/tests/test_dynamic_allocator.c"
+  "kern/conc/channel.c"
+  "kern/conc/sleeplock.c"
+  "kern/proc/user_programs.c"
+  "kern/proc/user_programs.h"
+  "kern/tests/utilities.c"
+  "user/mergesort_static.c"
+  "user/tst_chan_all_master.c"
+  "user/tst_chan_all_slave.c"
+  "user/tst_chan_one_master.c"
+  "user/tst_chan_one_slave.c"
+)
+for file in "${ms1[@]}"; do
+  git checkout $sync_branch -- $file
+done

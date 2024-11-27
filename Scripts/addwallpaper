@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+cp "$1" /home/kero/.config/hyde/themes/Catppuccin\ Mocha/wallpapers/

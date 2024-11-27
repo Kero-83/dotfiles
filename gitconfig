@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+  name = Kero-83
+  email = kerosarwat83@gmail.com
+[core]
+  editor = nvim
+[alias]
+  save = !git add -A && git commit -m
+  last = log -1 HEAD
+  lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  lola = lol --all
+  unstage = reset HEAD --
+  clone1d = clone --depth 1
+  fast = !gitfast
+  comdate = !gitfastdate
+  accept-ours = checkout --ours $(git diff --name-only --diff-filter=U)

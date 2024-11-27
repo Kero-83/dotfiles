@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+git merge $1
+git checkout --ours $(git diff --name-only --diff-filter=U)
+git add -A
+git commit -m "$2"
