@@ -2,6 +2,7 @@ aaron-bond.better-comments
 adpyke.codesnap
 ahmadawais.shades-of-purple
 alexowl.transparent-color-theme
+be5invis.vscode-custom-css
 bhargavichada.naruto-theme
 bierner.markdown-preview-github-styles
 blackboxapp.blackbox
@@ -12,6 +13,7 @@ christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
+divyanshuagrawal.competitive-programming-helper
 docker.docker
 donjayamanne.githistory
 dracula-theme.theme-dracula
@@ -33,6 +35,7 @@ icrawl.discord-vscode
 jeff-hykin.better-cpp-syntax
 jeroen-meijer.pubspec-assist
 johnpapa.winteriscoming
+langningchen.cph-ng
 leonardssh.vscord
 llvm-vs-code-extensions.lldb-dap
 marvhen.reflow-markdown
@@ -63,7 +66,6 @@ ms-vscode.live-server
 ms-vscode.makefile-tools
 ms-vscode.remote-explorer
 ms-vsliveshare.vsliveshare
-msjsdiag.debugger-for-chrome
 orta.vscode-jest
 pkief.material-icon-theme
 pkief.material-product-icons
@@ -90,7 +92,6 @@ vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
-vscodevim.vim
 webfreak.debug
 wix.vscode-import-cost
 xabikos.javascriptsnippets
