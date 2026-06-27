@@ -25,12 +25,10 @@ esbenp.prettier-vscode
 eserozvataf.one-dark-pro-monokai-darker
 evgeniypetukhov.dark-low-contrast
 felipecaputo.git-project-manager
-gaga-dev.blur-menu
 github.codespaces
-github.copilot
-github.copilot-chat
 github.github-vscode-theme
 github.vscode-pull-request-github
+golang.go
 icrawl.discord-vscode
 jeff-hykin.better-cpp-syntax
 jeroen-meijer.pubspec-assist
@@ -59,6 +57,7 @@ ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.cmake-tools
+ms-vscode.cpp-devtools
 ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
@@ -70,9 +69,9 @@ orta.vscode-jest
 pkief.material-icon-theme
 pkief.material-product-icons
 qwtel.sqlite-viewer
-rbbit.typescript-hero
 redhat.java
 redhat.vscode-yaml
+rust-lang.rust-analyzer
 sdras.inbedby7pm
 shahilkumar.docxreader
 shakram02.bash-beautify
@@ -84,8 +83,6 @@ tushortz.java-snippets
 twxs.cmake
 usernamehw.errorlens
 vadimcn.vscode-lldb
-visualstudioexptteam.intellicode-api-usage-examples
-visualstudioexptteam.vscodeintellicode
 vscjava.vscode-gradle
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
